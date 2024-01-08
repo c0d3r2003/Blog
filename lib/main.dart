@@ -14,13 +14,10 @@ class MainPage extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Blog Club',
-<<<<<<< HEAD
-      home: Material(),git
-=======
       home: Material(
         child: const LayoutPage(),
       ),
->>>>>>> origin/master
+
     );
   }
 }
