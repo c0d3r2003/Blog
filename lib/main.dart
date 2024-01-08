@@ -1,3 +1,4 @@
+import 'package:blogclub/pages/layout_page.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MainPage());
@@ -13,7 +14,9 @@ class MainPage extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Blog Club',
-      home: Material(),git
+      home: Material(
+        child: const LayoutPage(),
+      ),
     );
   }
 }
