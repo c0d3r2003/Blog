@@ -12,9 +12,6 @@ void callImages(){
 for(int i = 0 ; i<posts.length; i++){
 
 imageSliderList.add(ImageSlider(imgUrl: 'https://abcdhelloworld.000webhostapp.com/uploads/posts/${posts[i].image}', title: posts[i].category));
-  // ImageSlider(imgUrl: 'https://abcdhelloworld.000webhostapp.com/uploads/posts/${posts[0].image}', title: "Technology"),
-  // ImageSlider(imgUrl: 'images/slide_image_2.png', title: "Adventure"),
-  // ImageSlider(imgUrl: 'images/slide_image_3.jpg', title: "Business"),
 
 }
 

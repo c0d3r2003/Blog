@@ -2,7 +2,6 @@ import 'package:blogclub/pages/articles_page.dart';
 import 'package:blogclub/pages/home_page.dart';
 import 'package:blogclub/pages/profile_page.dart';
 import 'package:blogclub/theme.dart';
-import 'package:blogclub/widget/bottom_nav_item.dart';
 import 'package:flutter/material.dart';
 import 'gallery.dart';
 
@@ -138,6 +137,7 @@ class _LayoutPageState extends State<LayoutPage> {
           ],
         ),
       ),
+
             ],
           ),
         ),
